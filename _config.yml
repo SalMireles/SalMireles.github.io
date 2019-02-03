@@ -140,7 +140,7 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "Github"
+    - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
     - label: "GitLab"
@@ -301,4 +301,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-    
