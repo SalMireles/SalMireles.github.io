@@ -111,10 +111,6 @@ author:
   bio              : "Data Science Portfolio"
   location         : "Foster City, CA"
   email            :
-  github           : "SalMireles"
-  linkedin         : "Sal"
-    url: "https://www.linkedin.com/in/salvador-mireles-b64908123/"
-
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
