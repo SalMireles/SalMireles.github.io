@@ -115,9 +115,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:sal.chemicale@gmail.com
-    - label: "linkedin"
-      icon: "fas fa-fw fa-link"
-       url: "https://www.linkedin.com/in/salvador-mireles-b64908123/"
+    - #label: "linkedin"
+      #icon: "fas fa-fw fa-link"
+      # url: "https://www.linkedin.com/in/salvador-mireles-b64908123/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
