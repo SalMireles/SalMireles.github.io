@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Sal Mireles"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Sal Mireles"
+description              : "Data Science Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,25 +106,25 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Sal Mireles"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Data Science Portfolio"
+  location         : "Foster City, CA"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
+       url: sal.chemicale@gmail.com
+    - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+       url: "https://www.linkedin.com/in/salvador-mireles-b64908123/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
+    - label: "SalMireles"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
     - label: "Instagram"
@@ -140,7 +140,7 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
+    - label: "Github"
       icon: "fab fa-fw fa-github"
       # url:
     - label: "GitLab"
@@ -293,3 +293,12 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+    
