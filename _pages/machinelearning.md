@@ -3,6 +3,6 @@ layout: archive
 permalink: /machine-learning/
 title: "Machine Learning Posts by Topics"
 author_profile: true
-tags: Ml
+tags: ML
 
 ---
