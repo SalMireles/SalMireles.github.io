@@ -8,5 +8,5 @@ author_profile: true
 
 
 {% for post in site.tags.ML  %}
-    {{ post.title }}
+  <li>{{ post.title }}</li>
 {% endfor %}
