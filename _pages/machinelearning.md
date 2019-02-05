@@ -7,6 +7,6 @@ author_profile: true
 ---
 
 
-{% for post in site.tags.machine learning  %}
+{% for post in site.tags.ML  %}
     <h1>{{ post.title }}</h1>
 {% endfor %}
