@@ -9,4 +9,4 @@ header:
 {% for post in site.tags.news   %}
    {% if post.category[0] == "machine learning" %}
      <h1>{{ post.title }}</h1>
- {% endfor %}
+{% endfor %}
