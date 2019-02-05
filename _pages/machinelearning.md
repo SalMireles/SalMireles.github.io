@@ -6,3 +6,7 @@ author_profile: true
 tags: ML
 
 ---
+
+{% for post in site.tags.ML  %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
