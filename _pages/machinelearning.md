@@ -8,5 +8,8 @@ author_profile: true
 
 
 {% for post in site.tags.ML  %}
-  <li>{{ post.title }}</li>
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+  </li>
 {% endfor %}
