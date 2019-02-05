@@ -10,29 +10,21 @@ tags: ML
 {% for post in site.tags.ML  %}
 
 
-  <ul class="taxonomy__index">
-    {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-    {% for year in postsInYear %}
-      <li>
-        <a href="#{{ year.name }}">
-          <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+  <div id="main" role="main">
+    <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+      {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+      {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+      {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+      {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
-  {% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-  {% for year in postsByYear %}
-    <section id="{{ year.name }}" class="taxonomy__section">
-      <h2 class="archive__subtitle">{{ year.name }}</h2>
-      <div class="entries-{{ page.entries_layout | default: 'list' }}">
-        {% for post in year.items %}
-          {% include archive-single.html type=page.entries_layout %}
-        {% endfor %}
-      </div>
-      <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-    </section>
-  {% endfor %}
+      <section class="page__content" itemprop="text">
+        {{ content }}
+      </section>
+    </article>
+  </div>
+
+
+
 
 
 
