@@ -7,11 +7,11 @@ tags: machine learning
 mathjax: "true"
 ---
 
-###### Examples borrowed from "Hands-On Machine Learning with Scikit-Learn & Tensorflow" by Aurelien Geron
+###### (Examples borrowed from "Hands-On Machine Learning with Scikit-Learn & Tensorflow" by Aurelien Geron)
 
 
 
-# _Stratified Sampling_
+### Stratified Sampling
 
 When your dataset isn't considerably larger than the number of attributes you must consider the effect of stratified sampling to
 avoid introducing sampling bias from random sampling.
@@ -21,5 +21,5 @@ For example, the following diagram illustrates a good stratified sampling approa
 
 
 
-# Another technique coming soon
+### Another technique coming soon
 $$z=x+y$$
