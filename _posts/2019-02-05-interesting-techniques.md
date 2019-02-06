@@ -9,6 +9,8 @@ mathjax: "true"
 
 #### Examples borrowed from "Hands-On Machine Learning with Scikit-Learn & Tensorflow" by Aurelien Geron
 
+
+
 # Stratified Sampling
 
 When your dataset isn't considerably larger than the number of attributes you must consider the effect of stratified sampling to
